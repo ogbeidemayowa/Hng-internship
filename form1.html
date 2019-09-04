@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form1.css">
+
+</head>
+<body>
+        <div class="container">  
+                <form id="contact-form">
+                  <h3>Get in touch?.</h3>
+                  <h4>Fill this form and get a reply within 24 hours!</h4>
+                  <span id="close-btn">&times;</span>
+
+                  <fieldset>
+                    <input type="text" id="title" required autofocus placeholder="Message Title">
+                    
+                  </fieldset>
+
+                  
+                  <fieldset>
+                    <input type="text" id="name" required minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+            <h2>Contact me.</h2>
+        </div>
+        <script src="test.js"></script>
+</body>
+</html>
