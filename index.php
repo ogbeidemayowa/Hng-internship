@@ -12,5 +12,6 @@ if (isset($_POST['submit'])){
     // wriring to submit your file
     fwrite($x, $contactmsg);
     fclose($x);
+    echo "sent"
 } 
 ?>
